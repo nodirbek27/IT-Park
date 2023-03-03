@@ -18,32 +18,32 @@
 
 
   <!-- HEADER -->
-  <header class="header bg-dark text-white">
+  <header class="site-header bg-dark text-white">
     <div class="container">
       <div class="header">
         <a href="#" class="navbar-brand">
           QDPI IT-Park
         </a>
 
-        <button class="navbar-toggler" type="button">
-          <img src="img/menu-icon.png" alt="" width="30" height="30">
+        <button class="button-menu">
+          <img class="menu" src="img/menu-icon.png" alt="menu-icon" width="40" height="40">
         </button>
 
         <div class="nav-wrapper mobile-menu">
           <ul class="nav-list">
             <li class="nav-item"><a href="courses.html" class="nav-item-link">Kurslar</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Bog'lanish</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Yordam</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Haqida</a></li>
+            <li class="nav-item"><a href="#connect" class="nav-item-link">Bog'lanish</a></li>
+            <li class="nav-item"><a href="#help" class="nav-item-link">Yordam</a></li>
+            <li class="nav-item"><a href="#about" class="nav-item-link">Haqida</a></li>
           </ul>
           <form class="search-form">
             <input type="search" class="form-control form-control-dark" placeholder="Qidirish..." aria-label="Search">
           </form>
-          <div class="text-end">
-            <button type="button" class="btn btn-outline-light me-2">
-              <a class="text-decoration-none text-blue" href="login.html">Kirish</a>
+          <div class="sign">
+            <button type="button" class="btn btn-outline-light text-white-50 me-2">
+              <a class="text-decoration-none text-white" href="login.html">Kirish</a>
             </button>
-            <button type="button" class="btn btn-warning">
+            <button type="button" class="btn btn-outline-light">
               <a class="text-decoration-none text-white" href="register.html">Ro'yxatdan o'tish</a>
             </button>
           </div>
@@ -102,14 +102,14 @@
   </div>
 
 
-  <!-- KO'P QIDIRILGAN KURSLAR -->
+  <!-- KURSLAR -->
   <div class="fullbody">
     <div class="container popular-cources">
-      <h3 class="main-heading">KO'P QIDIRILGAN KURSLAR </h3>
+      <h3 class="main-heading">KURSLAR</h3>
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="card">
-            <img src="img/python.jpg" class="card-img-top" alt="...">
+            <div class="card-img-wrapper"><img src="img/python.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Pythonda dasturlash asoslari</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -118,7 +118,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="card">
-            <img src="img/algorithms.jpg" class="card-img-top" alt="...">
+            <div class="card-img-wrapper"><img src="img/algorithms.jpg" class="card-img-top" alt="..."></div>
             <div class="card-body">
               <h5 class="card-title">Data structures and algoritmlar</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -127,7 +127,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="card">
-            <img src="img/javascript.png" class="card-img-top" alt="..." width="270" height="170">
+            <div class="card-img-wrapper"><img src="img/javascript.png" class="card-img-top" alt="..." width="270" height="170"></div>
             <div class="card-body">
               <h5 class="card-title">JavaScript to'liq kurs(0 dan)</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -136,7 +136,7 @@
         </div>
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="card">
-            <img src="img/qa.jpg" class="card-img-top" alt="..." width="270" height="170">
+            <div class="card-img-wrapper"><img src="img/qa.jpg" class="card-img-top" alt="..." width="270" height="170"></div>
             <div class="card-body">
               <h5 class="card-title">QA Engineer(Quality Assurance</h5>
               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -147,6 +147,12 @@
     </div>
   </div>
 
+  <!-- CONNECT US -->
+
+  <!-- HELP -->
+
+  <!-- ABOUT -->
+  <div class="about" id="about"></div>
 
   <!-- FOOTER -->
     <footer>
@@ -193,6 +199,8 @@
               </li>
             </ul>
           </div>
+
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Qo'qon davlat pedagogika instituti&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
       </div>
     </footer>
 
