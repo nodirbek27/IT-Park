@@ -503,6 +503,15 @@ textarea.input {
   opacity: 0.3;
 }
 
+/* LOCATION */
+.map {
+  margin-top: 20px;
+}
+.map-heading {
+  font-size: 500px;
+  font-size: 1.5rem;
+}
+
 
 
 /* FOOTER */
@@ -753,7 +762,7 @@ footer p {
   .text, .information, .social-media {
     font-size: 0.8rem;
   }
-  .contact-title {
+  .contact-title, .map-heading {
     font-size: 1.15rem;
   }
   .social-icons a {
