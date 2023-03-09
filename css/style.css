@@ -747,7 +747,7 @@ footer p {
   .contact-info::before {
     display: none;
   }
-  form, .contact-info {
+  .contact-form form, .contact-info {
     padding: 1.7rem 1.6rem;
   }
   .text, .information, .social-media {
@@ -802,11 +802,6 @@ footer p {
   .menu, .close {
     width: 24px;
     height: 24px;
-  }
-
-  .sign div {
-    padding: 3px 5px;
-    width: 100%;
   }
 }
 
