@@ -15,34 +15,34 @@
 <body>
 
   <!-- HEADER -->
-  <header class="header bg-dark text-white">
+  <header class="site-header bg-dark text-white">
     <div class="container">
       <div class="header">
         <a href="#" class="navbar-brand">
           QDPI IT-Park
         </a>
 
-        <button class="navbar-toggler" type="button">
-          <img src="img/menu-icon.png" alt="" width="30" height="30">
+        <button class="button-menu">
+          <img class="menu" src="img/menu-icon.png" alt="menu-icon" width="40" height="40">
         </button>
 
         <div class="nav-wrapper mobile-menu">
           <ul class="nav-list">
             <li class="nav-item"><a href="courses.html" class="nav-item-link">Kurslar</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Bog'lanish</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Yordam</a></li>
-            <li class="nav-item"><a href="#" class="nav-item-link">Haqida</a></li>
+            <li class="nav-item"><a href="#connect" class="nav-item-link">Bog'lanish</a></li>
+            <li class="nav-item"><a href="#help" class="nav-item-link">Yordam</a></li>
+            <li class="nav-item"><a href="#about" class="nav-item-link">Haqida</a></li>
           </ul>
           <form class="search-form">
             <input type="search" class="form-control form-control-dark" placeholder="Qidirish..." aria-label="Search">
           </form>
-          <div class="text-end">
-            <button type="button" class="btn btn-outline-light me-2">
-              <a class="text-decoration-none text-blue" href="login.html">Kirish</a>
-            </button>
-            <button type="button" class="btn btn-warning">
-              <a class="text-decoration-none text-white" href="register.html">Ro'yxatdan o'tish</a>
-            </button>
+          <div class="sign">
+            <div class="me-2">
+              <a class="sign-link text-decoration-none" href="login.html">Kirish</a>
+            </div>
+            <div>
+              <a class="sign-link text-decoration-none" href="register.html">Ro'yxatdan o'tish</a>
+            </div>
           </div>
         </div>
       </div>
@@ -52,33 +52,105 @@
   <div class="main-content">
 
     <!-- CARD-GROUP -->
-    <div class="container">
-      <div class="courses d-flex flex-column align-items-center">
-        <div class="primary">
-          <div class="primary-inner">
-            <div class="player">
 
+    <!-- KURSLAR -->
+  <div class="fullbody">
+    <div class="container popular-cources">
+      <h3 class="main-heading">KURSLAR</h3>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/python.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Pythonda dasturlash asoslari</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
-
           </div>
         </div>
-
-        <div class="secondary">
-          <!-- <h3 class="secondary-heading">O'xshash videolar</h3> -->
-          <div class="players">
-            <iframe class="primary-video video" src="https://www.youtube.com/embed/n3og3H5ToAQ" title="JavaScript darslari to'liq kurs uzbek tilida || Sammi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h2 class="secondary-video-title">JavaScript to'liq kurs</h2>
-            <p class="player-author">Samar Badriddinov</p>
-            <iframe class="secondary-video video" src="https://www.youtube.com/embed/xyBDrs--eTQ" title="React JS - yangi boshlanuvchilar uchun reaktiv qo'llanma || To'liq dars || ReactJS uzbek tilida" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h3 class="secondary-video-title">React JS - yangi boshlanuvchilar uchun reaktiv qo'llanma</h3>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/algorithms.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Data structures and algoritmlar</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
           </div>
-            <iframe class="secondary-video video" src="https://www.youtube.com/embed/XkTCaUIqCo4" title="PHP Dasturlash tili - To'liq kurs (7.5 soat)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <h3 class="secondary-video-title">PHP to'liq dars</h3>
-
         </div>
-
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/javascript.png" class="card-img-top" alt="..." width="270" height="170"></div>
+            <div class="card-body">
+              <h5 class="card-title">JavaScript to'liq kurs(0 dan)</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/qa.jpg" class="card-img-top" alt="..." width="270" height="170"></div>
+            <div class="card-body">
+              <h5 class="card-title">QA Engineer(Quality Assurance</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/python.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Pythonda dasturlash asoslari</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/python.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Pythonda dasturlash asoslari</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/python.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Pythonda dasturlash asoslari</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/python.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Pythonda dasturlash asoslari</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/python.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Pythonda dasturlash asoslari</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="card">
+            <div class="card-img-wrapper"><img src="img/python.jpg" class="card-img-top" alt="..."></div>
+            <div class="card-body">
+              <h5 class="card-title">Pythonda dasturlash asoslari</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
 
   </div>
 
